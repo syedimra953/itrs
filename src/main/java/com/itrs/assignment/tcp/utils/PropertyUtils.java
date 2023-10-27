@@ -8,8 +8,8 @@ import java.util.Properties;
 public class PropertyUtils {
 
     public static final String SERVER_IP_ADDRESS = "127.0.0.1";
-    public static final int SERVER_PORT_NUMBER = 443;
-    public static final int CLIENT_PORT_NUMBER = 443;
+    public static final int SERVER_PORT_NUMBER = 8080;
+    public static final int CLIENT_PORT_NUMBER = 8080;
     public static final String APP_PROPS = "application.properties";
     private static final  Properties properties = new Properties();
 
