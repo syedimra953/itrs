@@ -15,7 +15,7 @@ public class TCPClientTest {
         Socket clientSocket = mock(Socket.class);
 
         // Set up input and output streams for the mock socket
-        ByteArrayInputStream inputStream = new ByteArrayInputStream("Test Message\n".getBytes());
+        InputStream inputStream = new ByteArrayInputStream("Test Message\n".getBytes());
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
         when(clientSocket.getInputStream()).thenReturn(inputStream);
